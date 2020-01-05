@@ -1,0 +1,208 @@
+body{font-family:"Montserrat";
+text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat";
+}
+
+p {
+   font-family: "Ubuntu";
+  font-weight: lighter;
+  color: #8f8f8f;
+
+}
+/* Headings */
+
+
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ec9b3b;
+  color: #fff;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+
+/* navigation bar */
+
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.navbar-link {
+  font-family: "Montserrat-light"
+}
+
+
+/* download buttons */
+
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* title image */
+
+
+.title-img {
+  width: 100%;
+  transform: rotate(15deg);
+  padding-left: 50px;
+}
+
+
+/* features section */
+
+
+#features {
+  padding: 5% 15%;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #015668;
+  margin-bottom: 10%;
+}
+
+.icon:hover {
+  color: #e3b04b;
+}
+
+
+/* testimonials */
+
+
+#testimonials {
+  background-color: #6fb98f;
+  ;
+  color: #fff;
+}
+.testimonial-text{
+  font-size: 2rem;
+  line-height: 2;
+  padding-bottom: 20px;
+}
+.dog-profile {
+  width: 35%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-image {
+  width: 25%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-image-1 {
+  width: 35%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-image-2 {
+  width: 25%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #6fb98f;
+  padding-bottom: 5%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 25px;
+}
+
+
+/* pricing */
+
+
+#pricing {
+  padding: 70px;
+}
+.price-text{
+  font-size: 2rem;
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.btn-1:hover {
+  background-color: #9d2503;
+}
+
+.btn-2:hover {
+  background-color: #015668;
+}
+
+.btn-0:hover {
+  background-color: #ec9b3b;
+}
+
+
+/* media query */
+
+
+@media (max-width:991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform:rotate(0);
+  }
+}
+
+
+/* call to action */
+
+#cta{
+  background-color:#bd574e;
+  padding-top:70px;
+}
+
+
+/* footer */
+
+#footer{
+  padding:5% 7% 3%;
+}
+
+.social-icon{
+  margin:20px 10px;
+}
